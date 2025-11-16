@@ -5,19 +5,18 @@ This project implements a Python-based MCP (Model Context Protocol) server that 
 
 ## Project Structure
     ```
-app/
-    main.py       # FastAPI app initialization
-    routes.py     # API route definitions
-    exchanges.py  # CCXT integration for market data
-    utils.py      # Caching utilities and helpers
-tests/
-    test_routes.py    # API endpoint test cases
-    test_exchanges.py # Exchange-related tests
-requirements.txt
-README.md
+        app/
+            main.py       # FastAPI app initialization
+            routes.py     # API route definitions
+            exchanges.py  # CCXT integration for market data
+            utils.py      # Caching utilities and helpers
+        tests/
+            test_routes.py    # API endpoint test cases
+            test_exchanges.py # Exchange-related tests
+        requirements.txt
+        README.md
     ```
   
----
 
 ## Installation
 
