@@ -21,8 +21,8 @@ This project implements a Python-based MCP (Model Context Protocol) server that 
 
 1. **Clone the repository**
     ```
-    git clone https://github.com/your-username/crypto_mcp.git
-    cd crypto_mcp
+    git clone https://github.com/deep429/crypto_assignment.git
+    cd crypto_assignment
     ```
 
 2. **Create a virtual environment (recommended)**
