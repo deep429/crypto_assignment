@@ -4,16 +4,18 @@
 This project implements a Python-based MCP (Model Context Protocol) server that provides fast, reliable access to real-time and historical cryptocurrency market data from major exchanges. Using FastAPI as the web framework and CCXT for exchange integration, the server exposes RESTful endpoints to fetch market prices, historical OHLCV (candlestick) data, and exchange listings. The server is caching requests to optimize performance and includes robust error handling.
 
 ## Project Structure
-  app/
+    ```
+app/
     main.py       # FastAPI app initialization
     routes.py     # API route definitions
     exchanges.py  # CCXT integration for market data
     utils.py      # Caching utilities and helpers
-  tests/
+tests/
     test_routes.py    # API endpoint test cases
     test_exchanges.py # Exchange-related tests
-  requirements.txt
-  README.md
+requirements.txt
+README.md
+    ```
   
 ---
 
